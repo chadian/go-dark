@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sindresorhus/do-not-disturb": "^1.1.0"
+    "@sindresorhus/do-not-disturb": "^1.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
   }
 }
