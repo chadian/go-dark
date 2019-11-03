@@ -1,0 +1,14 @@
+{
+  "name": "blinders",
+  "version": "0.1.0",
+  "description": "Blinding mac notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sindresorhus/do-not-disturb": "^1.1.0"
+  }
+}
