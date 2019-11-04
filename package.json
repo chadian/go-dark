@@ -1,16 +1,21 @@
 {
-  "name": "blinders",
+  "name": "go-dark",
   "version": "0.1.0",
-  "description": "Blinding mac notifications",
-  "main": "index.js",
+  "description": "An app for managing mac notifications",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && electron ./dist/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sindresorhus/do-not-disturb": "^1.1.0",
-    "ts-node": "^8.4.1",
-    "typescript": "^3.6.4"
+    "@sindresorhus/do-not-disturb": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.5",
+    "typescript": "^3.6.4",
+    "electron": "^7.0.1"
   }
 }
