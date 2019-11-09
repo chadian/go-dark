@@ -1,21 +1,26 @@
 {
   "name": "go-dark",
+  "author": "Chad Carbert (@chadian)",
   "version": "0.1.0",
   "description": "An app for managing mac notifications",
-  "main": "dist/index.js",
+  "main": "app/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run build && electron ./dist/index.js"
+    "start": "yarn build && electron ./app/index.js",
+    "release": "yarn build && electron-builder"
   },
-  "author": "",
+  "build": {
+    "appId": "com.sticksnglue.go-dark"
+  },
   "license": "ISC",
   "dependencies": {
     "@sindresorhus/do-not-disturb": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.5",
-    "typescript": "^3.6.4",
-    "electron": "^7.0.1"
+    "electron": "^7.0.1",
+    "electron-builder": "^22.1.0",
+    "typescript": "^3.6.4"
   }
 }
