@@ -114,8 +114,8 @@ class Settings {
     { id: '15-min', label: '15 minutes', amount: 15 * 60 * 1000 },
     { id: '30-min', label: '30 minutes', amount: 30 * 60 * 1000 },
     { id: '1-hour', label: '1 hour', amount: 60 * 60 * 1000 },
-    { id: '2-hour', label: '1 hour', amount: 2 * 60 * 60 * 1000 },
-    { id: '4-hour', label: '1 hour', amount: 4 * 60 * 60 * 1000 },
+    { id: '2-hour', label: '2 hour', amount: 2 * 60 * 60 * 1000 },
+    { id: '4-hour', label: '4 hour', amount: 4 * 60 * 60 * 1000 },
   ]
 }
 
